@@ -39,7 +39,7 @@ sudo make install
 ```
 ![Alt text](images/yosys1.jpg)
 
-#Yosys installed successfully.
+## Yosys installed successfully.
 ---
 
 ### **2. Icarus Verilog (iverilog)**
@@ -50,7 +50,7 @@ sudo apt-get install iverilog
 ```
 ![Alt text](images/iverilog.jpg)
 
-#Iverilog installed successfully
+## Iverilog installed successfully
 ---
 
 ### **3. GTKWave (Waveform Viewer)**
@@ -61,7 +61,7 @@ sudo apt install gtkwave
 ```
 ![Alt text](images/gtkwave.jpg)
 
-#gtkwave installed successfully
+## gtkwave installed successfully
 ---
 
 ### **4. OpenSTA (Optional for SFAL participants)**
