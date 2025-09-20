@@ -1,11 +1,8 @@
+#  Task 2: Tool Installation & Setup
 
 ---
 
-# 🛠️ Task 2: Tool Installation & Setup
-
----
-
-## 💻 1️⃣ Machine Requirements
+## 1. Machine Requirements
 
 * **RAM:** 6 GB
 * **Storage:** 50 GB HDD
@@ -17,7 +14,7 @@
 
 ---
 
-## ⚙️ 2️⃣ Tool Installation
+## 2. Tool Installation
 
 ### **1. Yosys (Open-source Synthesis Tool)**
 
@@ -68,7 +65,7 @@ sudo apt install gtkwave
 
 ---
 
-## ✅ 3️⃣ Verification
+## 3. Verification
 
 Check that tools are installed successfully:
 
@@ -82,7 +79,7 @@ gtkwave --version  # Check GTKWave version
 
 ---
 
-## 📌 4️⃣ Summary
+## 4. Summary
 
 * Installed **Yosys, Icarus Verilog, GTKWave** on Ubuntu VM
 * Verified proper installation
