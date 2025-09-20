@@ -1,25 +1,25 @@
 # Digital VLSI SOC Design and Planning
 
-# 🚀 Task 1 – Chip Journey  
+# Task 1 – Chip Journey  
 
 A quick view of how a **C program becomes a real chip**:  
 
-1️⃣ **C Code** → Compile with GCC → ✅ Verified (O1)  
+1. **C Code** → Compile with GCC → Verified (O1)  
 
-2️⃣ **RTL Design** (Verilog/VHDL) → ✅ Verified (O2)  
+2. **RTL Design** (Verilog/VHDL) → Verified (O2)  
 
-3️⃣ **ASIC Synthesis** → Gate-level Netlist/Macros/Analog IPs → ✅ Verified (O3)  
+3. **ASIC Synthesis** → Gate-level Netlist/Macros/Analog IPs → Verified (O3)  
 
-4️⃣ **SoC Integration** → Processor + Peripherals + IPs  
+4. **SoC Integration** → Processor + Peripherals + IPs  
 
-5️⃣ **Physical Design** → GDSII Layout → 🏭 Fabrication  
+5. **Physical Design** → GDSII Layout → Fabrication  
 
-6️⃣ **Post-Silicon Test** → Run same C testbench → ✅ Verified (O4)  
+6. **Post-Silicon Test** → Run same C testbench → Verified (O4)  
 
-7️⃣ **Applications** → Arduino, Smartwatches, TVs, ACs  
+7. **Applications** → Arduino, Smartwatches, TVs, ACs  
 
 
-✔️ Final Check:
+ Final Check:
 
 ```
 O0 == O1 == O2 == O3 == O4
@@ -27,23 +27,18 @@ O0 == O1 == O2 == O3 == O4
 
 ---
 
-✨  Code → RTL → Chip → Real-world products.
+Code → RTL → Chip → Real-world products.
 
 ---
 
-# Project Tasks
-
-- [Task 1: Chip Modeling and SoC Design Flow](./task1/README.md)  
 
 ---
 
-# 🛠️ Task 2 – Installation Steps
-
-This task explains the tools and environment setup required for chip design and verification.
+# Task 2 – Installation Steps
 
 ---
 
-## 1️⃣ Setup Virtual Environment
+## 1. Setup Virtual Environment
 
 * Install **Oracle VirtualBox**.
 * Check system requirements:
@@ -54,7 +49,7 @@ This task explains the tools and environment setup required for chip design and 
 
 ---
 
-## 2️⃣ Install Yosys
+## 2. Install Yosys
 
 * Clone the **Yosys repository**.
 * Install required dependencies (build tools, libraries).
@@ -62,19 +57,19 @@ This task explains the tools and environment setup required for chip design and 
 
 ---
 
-## 3️⃣ Install Icarus Verilog (Iverilog)
+## 3. Install Icarus Verilog (Iverilog)
 
 * Install **Iverilog** for simulation of Verilog designs.
 
 ---
 
-## 4️⃣ Install GTKWave
+## 4. Install GTKWave
 
 * Install **GTKWave** to view simulation waveforms.
 
 ---
 
-## 5️⃣ Optional: OpenSTA
+## 5. Optional: OpenSTA
 
 * For timing analysis (not required for SFAL participants).
 * Install **OpenSTA** from the OpenROAD project repository.
