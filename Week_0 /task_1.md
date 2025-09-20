@@ -6,7 +6,7 @@
 ---
  
 ## 1. Application Stage (C Code)
-
+ 
 * Applications (e.g., **Firefox, Mozilla**) are written in **C/C++**.
 * Compiled using **GCC** → converts human readable source code into machine-readable instructions.
 * **Output 0: Compiled Application (GCC)**
