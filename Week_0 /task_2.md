@@ -46,7 +46,7 @@ sudo make install
 sudo apt-get update
 sudo apt-get install iverilog
 ```
-
+![Alt text](images/iverilog.jpg)
 ---
 
 ### **3. GTKWave (Waveform Viewer)**
@@ -55,7 +55,7 @@ sudo apt-get install iverilog
 sudo apt-get update
 sudo apt install gtkwave
 ```
-
+![Alt text](images/gtkwave.jpg)
 ---
 
 ### **4. OpenSTA (Optional for SFAL participants)**
