@@ -75,6 +75,8 @@ This task explains the tools and environment setup required for chip design and 
 
 ---
 
+## Flow of Task 2:
+
 1. Setup VirtualBox + Ubuntu → 2. Install Yosys → 3. Install Iverilog → 4. Install GTKWave → 5. (Optional) OpenSTA
 
 ---
