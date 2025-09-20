@@ -61,6 +61,8 @@ sudo apt install gtkwave
 ```
 ![Alt text](images/gtkwave.jpg)
 
+![Alt text](images/gtkwave1.jpg)
+
 ## gtkwave installed successfully
 ---
 
