@@ -94,7 +94,6 @@ Physical Design → GDSII → Tapeout → Tape-in
      ↓
 Market Deployment (Arduino, IoT, Consumer Electronics)
 ```
-
 ---
 
 ✨ **C Code → RTL → Integrated SoC → Verified Chip → Real-World Applications**
