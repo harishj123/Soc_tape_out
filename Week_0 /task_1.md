@@ -1,33 +1,33 @@
-## Summary of Task 1 - Video
+# Summary of Task 1 - Video
 
 ---
 
-# ⚡ Chip Modeling and SoC Design Flow
+#  Chip Modeling and SoC Design Flow
 ---
  
-## 1️⃣ Application Stage (C Code)
+## 1. Application Stage (C Code)
 
 * Applications (e.g., **Firefox, Mozilla**) are written in **C/C++**.
 * Compiled using **GCC** → converts human readable source code into machine-readable instructions.
-* ✅ **Output 0: Compiled Application (GCC)**
+* **Output 0: Compiled Application (GCC)**
 
 ---
 
-## 2️⃣ Specification Verification
+## 2. Specification Verification
 
 * Application behavior is verified against the **C-model specifications**.
-* ✅ **Output 1: Verified Specifications**
+* **Output 1: Verified Specifications**
 
 ---
 
-## 3️⃣ RTL Design (Soft Hardware)
+## 3. RTL Design (Soft Hardware)
 
 * Hardware is described in **RTL (Verilog/VHDL)** → blueprint of the chip in code.
-* ✅ **Output 2: Softcopy of Hardware (RTL Model)**
+* **Output 2: Softcopy of Hardware (RTL Model)**
 
 ---
 
-## 4️⃣ SoC Integration
+## 4. SoC Integration
 
 * Processor, macros, and analog IPs are combined into a **microcontroller/SoC**.
 * Step-by-step check:
@@ -35,14 +35,14 @@
   ```
   Output0 == Output1 == Output2 == Output3
   ```
-* ✅ **Output 3: Integrated SoC**
+* **Output 3: Integrated SoC**
 
 ---
 
-## 5️⃣ Post-Silicon Testing with Peripherals
+## 5. Post-Silicon Testing with Peripherals
 
 * The **same C testbench** is applied to the **fabricated chip with peripherals**.
-* ✅ **Output 4: Verified Silicon Chip**
+* **Output 4: Verified Silicon Chip**
 * Final verification:
 
   ```
@@ -51,33 +51,33 @@
 
 ---
 
-## 6️⃣ Physical Design (RTL → GDSII)
+## 6. Physical Design (RTL → GDSII)
 
 * Steps: Floorplanning → Placement → Clock Tree Synthesis → Routing
 * Output: **GDSII file (chip layout with metal layers)**
 
 ---
 
-## 7️⃣ Tapeout & Fabrication
+## 7. Tapeout & Fabrication
 
 * GDSII checked with **DRC/LVS** → sent to foundry (**Tapeout**)
 * Fabricated chip received (**Tape-in**)
 
 ---
 
-## 8️⃣ Market Applications
+## 8. Market Applications
 
 * Chip runs at **100–130 MHz** and is placed on a board.
 * Target applications:
 
-  * ⌚ Smartwatches (iWatch)
-  * 🖥️ TV Panels
-  * ❄️ AC Controllers
-  * 🔧 **Arduino Boards** → ⭐ Most promising market
+  *  Smartwatches (iWatch)
+  *  TV Panels
+  *  AC Controllers
+  *  **Arduino Boards** →  Most promising market
 
 ---
 
-## 🔄 Chip Journey Summary
+## Chip Journey Summary
 
 ```
 C Code → GCC Compile → Output0
