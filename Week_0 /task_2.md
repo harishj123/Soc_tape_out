@@ -37,7 +37,7 @@ make config-gcc
 make
 sudo make install
 ```
-![Alt text](images/yosys1.jpg)
+               ![Alt text](images/yosys1.jpg)
 
 ## Yosys installed successfully.
 ---
