@@ -1,82 +1,49 @@
 ## Summary of Task 1 - Video
+
 ---
 
 # ⚡ Chip Modeling and SoC Design Flow
+---
+
+## 1️⃣ Application Stage (C Code)
+
+* Applications (e.g., **Firefox, Mozilla**) are written in **C/C++**.
+* Compiled using **GCC** → converts human readable source code into machine-readable instructions.
+* ✅ **Output 0: Compiled Application (GCC)**
 
 ---
 
-## 1️⃣ Application (C Code)
+## 2️⃣ Specification Verification
 
-* Applications (like **Firefox, Mozilla**) are written in **C/C++**.
-* Compiled with **GCC** → turns human-readable code into machine instructions.
-* Verified using a **C-model** (checks if the code works as per specification).
-* ✅ **Output 1: Verified C-model**
+* Application behavior is verified against the **C-model specifications**.
+* ✅ **Output 1: Verified Specifications**
 
 ---
 
-## 2️⃣ RTL Design
+## 3️⃣ RTL Design (Soft Hardware)
 
-* Hardware is described in **RTL (Verilog/VHDL)** → this is the **blueprint of the hardware in code form**.
-* ✅ **Output 2: RTL model**
-
----
-
-## 3️⃣ ASIC Synthesis
-
-* RTL is translated into hardware building blocks:
-
-  * **Processor → Gate-level netlist**
-  * **Peripherals → Macros (reusable blocks)**
-  * **Analog IPs → e.g., ADC, PLL (non-synthesizable)**
-
-Examples:
-
-* **ADC** → converts analog signals into digital.
-
-* **PLL** → boosts clock frequency from a few MHz to hundreds of MHz.
-
-* ✅ **Output 3: Integrated SoC (Processor + Macros + Analog IPs)**
+* Hardware is described in **RTL (Verilog/VHDL)** → blueprint of the chip in code.
+* ✅ **Output 2: Softcopy of Hardware (RTL Model)**
 
 ---
 
 ## 4️⃣ SoC Integration
 
-* Processor + Macros + Analog IPs = **Microcontroller/SoC**.
-* Step-by-step checks:
+* Processor, macros, and analog IPs are combined into a **microcontroller/SoC**.
+* Step-by-step check:
 
   ```
-  Output0 == Output1
-  Output0 == Output1 == Output2
   Output0 == Output1 == Output2 == Output3
   ```
+* ✅ **Output 3: Integrated SoC**
 
 ---
 
-## 5️⃣ Physical Design (RTL → Layout)
+## 5️⃣ Post-Silicon Testing with Peripherals
 
-* RTL is converted into the **chip layout** through:
-
-  * Floorplanning
-  * Placement
-  * Clock Tree Synthesis
-  * Routing
-* Final layout file: **GDSII**
-
----
-
-## 6️⃣ Tapeout & Fabrication
-
-* **GDSII** is checked for design rules (DRC/LVS).
-* Sent to the **foundry (tapeout)** → silicon chip is fabricated.
-* Foundry sends back the chip (**tape-in**).
-
----
-
-## 7️⃣ Post-Silicon Testing
-
-* The **same C testbench** used earlier is now applied to the **real chip**.
+* The **same C testbench** is applied to the **fabricated chip with peripherals**.
 * ✅ **Output 4: Verified Silicon Chip**
-* Final check:
+* Final verification:
 
   ```
   Output0 == Output1 == Output2 == Output3 == Output4
@@ -84,41 +51,53 @@ Examples:
 
 ---
 
+## 6️⃣ Physical Design (RTL → GDSII)
+
+* Steps: Floorplanning → Placement → Clock Tree Synthesis → Routing
+* Output: **GDSII file (chip layout with metal layers)**
+
+---
+
+## 7️⃣ Tapeout & Fabrication
+
+* GDSII checked with **DRC/LVS** → sent to foundry (**Tapeout**)
+* Fabricated chip received (**Tape-in**)
+
+---
+
 ## 8️⃣ Market Applications
 
-* The chip runs at **100–130 MHz**.
-* Packaged and placed on a **board**.
-* Used in real products:
+* Chip runs at **100–130 MHz** and is placed on a board.
+* Target applications:
 
   * ⌚ Smartwatches (iWatch)
   * 🖥️ TV Panels
   * ❄️ AC Controllers
-  * 🔧 **Arduino Boards** → ⭐ Best target market
+  * 🔧 **Arduino Boards** → ⭐ Most promising market
 
 ---
 
-## 🔄 Complete Flow in Short
+## 🔄 Chip Journey Summary
 
 ```
-C Code → Verified C-Model (O1)
+C Code → GCC Compile → Output0
      ↓
-RTL Design (O2)
+Specification Verification → Output1
      ↓
-ASIC Synthesis → Processor + IPs (O3)
+RTL Design → Output2
      ↓
-SoC Integration
+SoC Integration → Output3
      ↓
-Physical Design → GDSII
+Post-Silicon Testing → Output4
      ↓
-Tapeout → Fabricated Chip
-     ↓
-Post-Silicon Testing (O4)
+Physical Design → GDSII → Tapeout → Tape-in
      ↓
 Market Deployment (Arduino, IoT, Consumer Electronics)
 ```
 
 ---
 
-✨ **C Code → RTL → Layout → Chip → Real-World Applications**
+✨ **C Code → RTL → Integrated SoC → Verified Chip → Real-World Applications**
 
 ---
+
