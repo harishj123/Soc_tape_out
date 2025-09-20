@@ -31,6 +31,12 @@ O0 == O1 == O2 == O3 == O4
 
 ---
 
+# Project Tasks
+
+- [Task 1: Chip Modeling](./Task1/README.md)
+
+---
+
 # 🛠️ Task 2 – Installation Steps
 
 This task explains the tools and environment setup required for chip design and verification.
