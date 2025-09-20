@@ -39,7 +39,7 @@ sudo make install
 ```
 ![Alt text](images/yosys1.jpg)
 
-           ## Yosys installed successfully.
+## Yosys installed successfully.
 ---
 
 ### **2. Icarus Verilog (iverilog)**
