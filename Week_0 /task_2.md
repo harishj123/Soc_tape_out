@@ -10,7 +10,7 @@
 * **CPU:** 4 vCPUs
 
 > Recommended: Use **Oracle VirtualBox**
-> [🔗 Download VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+> [ Download VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
 ---
 
