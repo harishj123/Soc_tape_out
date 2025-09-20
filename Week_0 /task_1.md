@@ -73,7 +73,7 @@
 
 ## 7. Post-Silicon Testing with Peripherals
 
-* The **same C testbench** is applied to the **fabricated chip with peripherals**.
+* The **same C testbench** is applied to the **fabricated chip with peripherals** on the board.
 * **Output of this stage is considered as O4**
 * Final verification:
 
