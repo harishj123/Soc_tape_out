@@ -32,57 +32,53 @@ O0 == O1 == O2 == O3 == O4
 ---
 ---
 
-# ⚙️ Task 2 – Installation Guide
+# 🛠️ Task 2 – Installation Steps
 
-## 🖥️ System Requirements
-
-* **RAM:** 6 GB
-* **Disk:** 50 GB
-* **CPU:** 4 vCPUs
-* **OS:** Ubuntu 20.04+
-
-Download VirtualBox: [Oracle VM](https://www.virtualbox.org/wiki/Downloads)
+This task explains the tools and environment setup required for chip design and verification.
 
 ---
 
-## 🔧 Tool Setup
+## 1️⃣ Setup Virtual Environment
 
-### 1️⃣ Yosys (Synthesis Tool)
+* Install **Oracle VirtualBox**.
+* Check system requirements:
 
-```bash
-sudo apt-get update
-git clone https://github.com/YosysHQ/yosys.git
-cd yosys
-sudo apt install make build-essential clang bison flex \
-libreadline-dev gawk tcl-dev libffi-dev git \
-graphviz xdot pkg-config python3 libboost-system-dev \
-libboost-python-dev libboost-filesystem-dev zlib1g-dev
-make config-gcc
-make
-sudo make install
-```
-
-### 2️⃣ Icarus Verilog (Simulator)
-
-```bash
-sudo apt-get update
-sudo apt-get install iverilog
-```
-
-### 3️⃣ GTKWave (Waveform Viewer)
-
-```bash
-sudo apt-get update
-sudo apt-get install gtkwave
-```
-
-### 4️⃣ OpenSTA (Static Timing – optional)
-
-🔗 [OpenSTA GitHub](https://github.com/The-OpenROAD-Project/OpenSTA)
+  * **6 GB RAM**, **50 GB HDD**
+  * **Ubuntu 20.04+**
+  * **4 vCPUs**
 
 ---
 
-✅ Now your environment is ready!
+## 2️⃣ Install Yosys
+
+* Clone the **Yosys repository**.
+* Install required dependencies (build tools, libraries).
+* Build and install **Yosys** for RTL synthesis.
+
+---
+
+## 3️⃣ Install Icarus Verilog (Iverilog)
+
+* Install **Iverilog** for simulation of Verilog designs.
+
+---
+
+## 4️⃣ Install GTKWave
+
+* Install **GTKWave** to view simulation waveforms.
+
+---
+
+## 5️⃣ Optional: OpenSTA
+
+* For timing analysis (not required for SFAL participants).
+* Install **OpenSTA** from the OpenROAD project repository.
+
+---
+
+1. Setup VirtualBox + Ubuntu → 2. Install Yosys → 3. Install Iverilog → 4. Install GTKWave → 5. (Optional) OpenSTA
+
+---
 
 ---
 
