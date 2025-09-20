@@ -30,7 +30,6 @@ O0 == O1 == O2 == O3 == O4
 ✨  Code → RTL → Chip → Real-world products.
 
 ---
----
 
 # 🛠️ Task 2 – Installation Steps
 
@@ -80,6 +79,5 @@ This task explains the tools and environment setup required for chip design and 
 
 ---
 
----
 
 
