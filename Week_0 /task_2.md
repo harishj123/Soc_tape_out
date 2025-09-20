@@ -38,6 +38,8 @@ make
 sudo make install
 ```
 ![Alt text](images/yosys1.jpg)
+
+#Yosys installed successfully.
 ---
 
 ### **2. Icarus Verilog (iverilog)**
@@ -47,6 +49,8 @@ sudo apt-get update
 sudo apt-get install iverilog
 ```
 ![Alt text](images/iverilog.jpg)
+
+#Iverilog installed successfully
 ---
 
 ### **3. GTKWave (Waveform Viewer)**
@@ -56,6 +60,8 @@ sudo apt-get update
 sudo apt install gtkwave
 ```
 ![Alt text](images/gtkwave.jpg)
+
+#gtkwave installed successfully
 ---
 
 ### **4. OpenSTA (Optional for SFAL participants)**
@@ -73,8 +79,4 @@ Check that tools are installed successfully:
 yosys -V       # Check Yosys version
 iverilog -V    # Check Icarus Verilog version
 gtkwave --version  # Check GTKWave version
-```
-
-> **Tip:** Take a **screenshot of each tool running** and commit to GitHub as your **Tool Snapshot**.
-
 ---
