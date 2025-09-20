@@ -37,7 +37,7 @@ make config-gcc
 make
 sudo make install
 ```
-![Alt text](images/yosys.jpg)
+![Alt text](images/yosys1.jpg)
 ---
 
 ### **2. Icarus Verilog (iverilog)**
