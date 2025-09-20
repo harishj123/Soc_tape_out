@@ -1,7 +1,7 @@
 # Digital VLSI SOC Design and Planning
 
 # Task 1 – Chip Journey  
-
+ 
 1. **C Code** → Compile with GCC → Verified (O1)  
 
 2. **RTL Design** (Verilog/VHDL) → Verified (O2)  
