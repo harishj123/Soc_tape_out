@@ -2,7 +2,7 @@
 
 ---
 
-#  Chip Modeling and SoC Design Flow
+#  Chip Modelling
 ---
  
 ## 1. Application Stage (C Code)
