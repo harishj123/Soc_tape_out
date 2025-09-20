@@ -4,7 +4,7 @@
 
 # ⚡ Chip Modeling and SoC Design Flow
 ---
-
+ 
 ## 1️⃣ Application Stage (C Code)
 
 * Applications (e.g., **Firefox, Mozilla**) are written in **C/C++**.
