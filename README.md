@@ -2,8 +2,6 @@
 
 # Task 1 – Chip Journey  
 
-A quick view of how a **C program becomes a real chip**:  
-
 1. **C Code** → Compile with GCC → Verified (O1)  
 
 2. **RTL Design** (Verilog/VHDL) → Verified (O2)  
