@@ -33,7 +33,7 @@ O0 == O1 == O2 == O3 == O4
 
 # Project Tasks
 
-- [Task 1: Chip Modeling](./week_0/task_1)
+- [Task 1: Chip Modeling and SoC Design Flow](./task1/README.md)  
 
 ---
 
