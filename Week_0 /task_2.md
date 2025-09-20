@@ -78,12 +78,3 @@ gtkwave --version  # Check GTKWave version
 > **Tip:** Take a **screenshot of each tool running** and commit to GitHub as your **Tool Snapshot**.
 
 ---
-
-## 4. Summary
-
-* Installed **Yosys, Icarus Verilog, GTKWave** on Ubuntu VM
-* Verified proper installation
-* Prepared **tool snapshot** for GitHub
-* Ready for **chip design & verification tasks**
-
----
